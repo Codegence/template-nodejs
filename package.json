@@ -1,0 +1,34 @@
+{
+  "name": "nodejsclient",
+  "version": "0.0.0",
+  "description": "Drop Wizard client for CodeCraft.",
+  "main": "app.js",
+  "scripts": {
+    "test": "vows tests/* -v",
+    "start": "grunt server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab-art.globallogic.com.ar:codecraft/nodejsclient.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.6.1"
+  },
+  "devDependencies": {
+    "api-easy": "^0.3.8",
+    "expect": "^0.1.1",
+    "express": "^4.6.1",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express-server": "^0.4.17",
+    "grunt-vows": "^0.4.1",
+    "superagent": "^0.18.2",
+    "vows": "^0.7.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
